@@ -23,7 +23,7 @@ $(function() {
             const pwd = $(".reg-box [name=password]").val();
             if( pwd !== val ) return "两次密码不一致"
         },
-    });
+    }); 
 
     //基本路径
     // const baseUrl = 'http://www.liulongbin.top:3007'
